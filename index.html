@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon Formulario</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://img.icons8.com/color/48/pokeball.png" type="image/png">
+    </head>    
+<body>
+    <div class="container">
+        <h1>Informacion de Pokemon</h1>
+        <br>
+        <form id="pokemonForm">
+            <label for="pokemonInput">Nombre o ID: </label>
+            <input type="text" id="pokemonInput" placeholder="Ejemplo: Nidoking o 34" required>
+            <button type="submit">Buscar Pokemon</button>
+        </form>
+        
+        <div id="pokemonInfo" class="hidden">
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
+
